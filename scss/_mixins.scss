@@ -1,8 +1,8 @@
   @mixin student-name {
-  float: left;
-  position: relative;
+
+  position: absolute;
   text-align: center;
-  margin-bottom: -1em;
+  margin: 0;
   width: 100%;
   z-index: 10;
   padding: 0.6em 0 0.4em;
@@ -10,7 +10,6 @@
   color: $white;
   letter-spacing: 2px;
   font-size: 12px;
-  margin-top: -2.25em;
   font-family: "Effra", serif;
   @media only screen and (min-width: 60em) {
     margin-top: -2.45em;
