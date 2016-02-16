@@ -73,14 +73,14 @@ html {
 }
 
 .ph-partialname {
-	display: blocks;
+	display: block;
 	@media only screen and (min-width: 80em) {
     display: none;
   }
 }
 
 .ph-fullname {
-	display: block;
+	display: none;
 	@media only screen and (min-width: 80em) {
     display: block;
   }

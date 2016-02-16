@@ -1919,16 +1919,11 @@ html {
   letter-spacing: 2px;
   font-size: 12px;
   font-family: "Effra", serif;
-}
-
-@media only screen and (min-width: 60em) {
-  .ph-student p {
-    margin-top: -2.45em;
-  }
+  margin-top: -2.25em;
 }
 
 .ph-partialname {
-  display: blocks;
+  display: block;
 }
 
 @media only screen and (min-width: 80em) {
@@ -1938,7 +1933,7 @@ html {
 }
 
 .ph-fullname {
-  display: block;
+  display: none;
 }
 
 @media only screen and (min-width: 80em) {
